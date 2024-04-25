@@ -25,7 +25,7 @@ CODE_GENERATOR_IMAGE ?= appscode/gengo:release-1.21
 API_GROUPS           ?= kubed:v1alpha1
 
 # Where to push the docker image.
-REGISTRY ?= appscode
+REGISTRY ?= klilleby
 
 # This version-strategy uses git tags to set the version string
 git_branch       := $(shell git rev-parse --abbrev-ref HEAD)
